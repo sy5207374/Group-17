@@ -1,2 +1,0 @@
-- Name: Xinran Xie
-- Student Number: 300452622
