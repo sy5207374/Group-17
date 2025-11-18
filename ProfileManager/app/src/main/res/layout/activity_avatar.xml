@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose picture" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAvatars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioAvatar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avatar 1" />
+
+        <RadioButton
+            android:id="@+id/radioAvatar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avatar 2" />
+
+        <RadioButton
+            android:id="@+id/radioAvatar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avatar 3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonConfirmAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sure and Back" />
+
+</LinearLayout>
